@@ -1,0 +1,34 @@
+"""
+The Linux terminal provides pipes that can be used, among other things, to redirect the output of a command to a file.
+
+For example, try to do:
+
+echo "hi"
+echo "hi" > f
+
+What was the difference?
+
+Now, go to your desktop directory using cd and create a directory called ex5 for this exercise using mkdir.
+
+Inside the new directory, using the previous commands, write "Hello" into a file called file1 and "Bye" into file2. Note that file extensions are not required in Linux.
+
+Concatenate these two files into a file3.
+
+Hint: You may concatenate files by providing them as arguments to the command cat (for example: cat f1 f2 [...] > f3).
+
+Write the output of the command wc file3 into file4 and the output of ls into file5.
+
+Now concatenate those 5 files and copy the output here:
+
+"""
+
+Hello
+Bye
+Hello
+Bye
+ 2  2 10 file3
+file1
+file2
+file3
+file4
+file5
